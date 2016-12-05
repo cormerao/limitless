@@ -43,7 +43,7 @@
         var items = [];
         
         eles.forEach(function(e){
-            items.push(parseInt(e.innerHTML));
+            items.push(parseInt(e.innerHTML, 10));
         });
 
         items.sort(function(e1, e2){
