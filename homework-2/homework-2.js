@@ -1,4 +1,6 @@
 (function(){
+    'use strict';
+    
     var result = [];
     var arr = [1,2,3, [2,54,98, [43,9]], 2,3];
     var testStr1 = 'noon';
@@ -59,4 +61,4 @@
     removeWord(testStr3, 'foo');    // Exercise 4
     setTimeout(sortElements, 3000); // Exercise 5
     
-}());
+})();
