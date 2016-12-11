@@ -1,0 +1,15 @@
+body {
+    font-family: Lato;
+    background: #ECECEA;
+}
+
+.ll-homework{
+    /*background: #74AFAD;*/
+    cursor: pointer;
+    margin: auto;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 10px;
+}

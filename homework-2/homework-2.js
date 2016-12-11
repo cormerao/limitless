@@ -54,7 +54,7 @@
             eles[i].innerHTML = items[i];
         }
     }
-    
+
     flattenArray(arr);              // Exercise 1
     isPalindrom(testStr1);          // Exercise 2
     addWord(testStr2, 'foo');       // Exercise 3
