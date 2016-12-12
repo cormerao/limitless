@@ -14,7 +14,7 @@ body {
 }
 
 .delete-symbol {
-	float: right;
+    float: right;
     cursor: pointer;
     color: red;
 }

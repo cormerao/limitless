@@ -52,10 +52,14 @@
         var deleteSymbol = document.createElement('div');
         deleteSymbol.innerHTML = "&#10062;";
         deleteSymbol.className = 'delete-symbol';
-        deleteSymbol.onclick = function () {
-            ele.parentElement.removeChild(ele);
-        };
+        deleteSymbol.onclick = function() {
+            deleteElement(ele);
+        }
         ele.appendChild(deleteSymbol);
+    }
+    
+    function deleteElement(ele) {
+        ele.parentElement.removeChild(ele);
     }
     
     console.log(randomStringGen(15, 25));                               // Exercise 1
