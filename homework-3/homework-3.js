@@ -47,10 +47,15 @@
         var ele = document.createElement('div');
         ele.innerHTML = randomString;
         ele.className = 'll-homework';
-        ele.onclick = function () {
-            ele.parentElement.removeChild(ele);
-        }
         document.body.appendChild(ele);
+        
+        var deleteSymbol = document.createElement('div');
+        deleteSymbol.innerHTML = "&#10062;";
+        deleteSymbol.className = 'delete-symbol';
+        deleteSymbol.onclick = function () {
+            ele.parentElement.removeChild(ele);
+        };
+        ele.appendChild(deleteSymbol);
     }
     
     console.log(randomStringGen(15, 25));                               // Exercise 1
