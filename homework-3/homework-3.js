@@ -54,7 +54,7 @@
         deleteSymbol.className = 'delete-symbol';
         deleteSymbol.onclick = function() {
             deleteElement(ele);
-        }
+        };
         ele.appendChild(deleteSymbol);
     }
     

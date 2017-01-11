@@ -1,0 +1,26 @@
+body {
+    font-family: Lato;
+    font-size: 14px;
+}
+
+.app__display{
+    width: 40%;
+    border-bottom: 1px solid #ccc;;
+}
+
+.js-test{
+    border: 1px solid #ccc;
+    width: 20%;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.ll-homework{
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-bottom: none;
+}
+
+.filtered-out{
+	display: none;
+}
